@@ -43,5 +43,3 @@ def multiplicar_elementos(lst):
 def sumar_numeros_en_cadena(s):
     numeros = re.findall(r'\d+', s)
     return sum(int(i) for i in numeros)
-
-print(sumar_elementos([1, 2, 3], [4, 5, 6])) # [5, 7, 9]

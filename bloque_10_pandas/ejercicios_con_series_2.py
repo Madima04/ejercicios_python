@@ -29,7 +29,6 @@ df['Discount'] = 50
 df['Sales'] = np.random.randint(0, 500, df.shape[0])
 df['Total'] = df['Price'] * df['Sales']
 
-# Borra la primera y séptima fila
 # Muestra la información para la marca “Edelrid”
 print(df.loc[df['Brand'] == 'Edelrid'])
 
